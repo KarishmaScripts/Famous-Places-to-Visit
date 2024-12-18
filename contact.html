@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #header{
+            background-color: rgb(40, 41, 74);
+            text-align: center;
+            padding: 25px;
+        }
+        #head{
+            color: white;
+            padding: 25px;
+        }
+        h2{
+            text-align: center;
+            padding: 25px;
+        }
+        form{
+            height: 300px;
+            width: 400px;
+            text-align: center;
+            background-color: white;
+            border: 1.5px solid rgb(190, 187, 187);
+            border-radius: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #input-item{
+            margin: 20px;
+            margin-top: 25px;
+            font-size: 23px;
+            width: 90%;
+            border: 0;
+            border-bottom: 1px solid rgb(190, 187, 187);
+        }
+        #submit-btn{
+            font-size: 15px;
+            color: white;
+            padding: 5px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(40, 41, 74);
+            
+        }
+    </style>
+</head>
+<body style="background-color: aliceblue;">
+    <div id="header">
+        <nav>
+            <a href="FinalProject.html" id="head">TRIPS</a>
+            <a href="about.html" id="head">ABOUT</a>
+            <a href="contact.html" id="head">CONTACT</a>
+        </nav>
+    </div>
+    <h2>Wanna come on my next trip? Contact Me.</h2>
+    <form method="post">
+        <input id="input-item" type="text" name="full-name" placeholder="Full Name"><br>
+        <input id="input-item" type="email" name="email" placeholder="Email"><br>
+        <input id="input-item" type="text" name="contactNo" placeholder="Contact Number" maxlength="10"><br><br>
+        <input id="submit-btn" type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
